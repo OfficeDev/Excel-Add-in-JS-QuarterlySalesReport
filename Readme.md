@@ -4,7 +4,7 @@ _Applies to: Excel 2016_
 
 This is a simple Excel task pane add-in that loads some data into a worksheet and creates a basic chart in Excel 2016. It comes in two flavors: text editor and Visual Studio.
 
-![Quarterly Sales Report Sample](images/QuarterlySalesReport_report.png)
+![Quarterly Sales Report Sample](images/QuarterlySalesReport_report.PNG)
 
 ## Try it out
 ### Text editor version
@@ -40,7 +40,7 @@ The simplest way to deploy and test your add-in is to copy the files to a networ
 
     d.  Click the **Click me!** button to render the data and the chart inside the worksheet, as shown in the following figure.  To see the chart update dynamically, just change the data in the range. 
         
-  ![Quarterly Sales Report Sample](images/QuarterlySalesReport_report.png)
+  ![Quarterly Sales Report Sample](images/QuarterlySalesReport_report.PNG)
 
 ### Visual Studio version
 1.  Copy the project to a local folder and open the Excel-Add-in-JS-QuarterlySalesReport.sln in Visual Studio.
@@ -50,7 +50,7 @@ The simplest way to deploy and test your add-in is to copy the files to a networ
 
 3. Click the **Click me!** button to render the data and the chart inside the worksheet, as shown in the following figure.  To see the chart update dynamically, just change the data in the range. 
         
-  ![Quarterly Sales Report Sample](images/QuarterlySalesReport_report.png)
+  ![Quarterly Sales Report Sample](images/QuarterlySalesReport_report.PNG)
         
 ## Code it
 
