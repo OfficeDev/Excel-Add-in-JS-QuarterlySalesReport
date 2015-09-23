@@ -11,9 +11,9 @@ This is a simple Excel task pane add-in that loads some data into a worksheet an
 
 The simplest way to deploy and test your add-in is to copy the files to a network share.
 
-1.  Create a folder on a network share (for example, \\MyShare\QuarterlySalesReport) and copy all the files in the Text Editor folder. 
+1.  Create a folder on a network share (for example, \\\MyShare\QuarterlySalesReport) and copy all the files in the Text Editor folder. 
 2.  Edit the <SourceLocation> element of the manifest file so that it points to the share location from step 1. 
-3.  Copy the manifest (QuarterlySalesReportManifest.xml) to a network share (for example, \\MyShare\MyManifests).
+3.  Copy the manifest (QuarterlySalesReportManifest.xml) to a network share (for example, \\\MyShare\MyManifests).
 4.  Add the share location that contains the manifest as a trusted app catalog in Excel.
 
     a.  Launch Excel and open a blank spreadsheet.  
