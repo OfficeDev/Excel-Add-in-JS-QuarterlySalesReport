@@ -2,16 +2,16 @@
 
 _Applies to: Excel 2016_
 
-This is a simple Excel task pane add-in that loads some data into a worksheet and creates a basic chart in Excel 2016. It comes in two flavors: text editor and Visual Studio.
+This is a simple Excel task pane add-in that loads some data into a worksheet and creates a basic chart in Excel 2016. It comes in two flavors: code editor and Visual Studio.
 
 ![Quarterly Sales Report Sample](images/QuarterlySalesReport_report.PNG)
 
 ## Try it out
-### Text editor version
+### Code editor version
 
 The simplest way to deploy and test your add-in is to copy the files to a network share.
 
-1.  Create a folder on a network share (for example, \\\MyShare\QuarterlySalesReport) and copy all the files in the Text Editor folder. 
+1.  Create a folder on a network share (for example, \\\MyShare\QuarterlySalesReport) and copy all the files in the Code Editor folder. 
 2.  Edit the <SourceLocation> element of the manifest file so that it points to the share location from step 1. 
 3.  Copy the manifest (QuarterlySalesReportManifest.xml) to a network share (for example, \\\MyShare\MyManifests).
 4.  Add the share location that contains the manifest as a trusted app catalog in Excel.
@@ -22,9 +22,9 @@ The simplest way to deploy and test your add-in is to copy the files to a networ
     
     c.  Choose **Trust Center**, and then choose the **Trust Center Settings** button.
     
-    d.  Choose **Trusted App Catalogs**.
+    d.  Choose **Trusted Add-ins Catalogs**.
     
-    e.  In the **Catalog Url** box, enter the path to the network share you created in step 1, and then choose **Add Catalog**.
+    e.  In the **Catalog Url** box, enter the path to the network share you created in step 3, and then choose **Add Catalog**.
     
    f.  Select the **Show in Menu** check box, and then choose **OK**. A message appears to inform you that your settings will be applied the next time you start Office. 
         
@@ -59,7 +59,6 @@ If you want to write this add-in yourself from scratch, see [Build your first Ex
 
 ### Learn more
 
-The Excel JavaScript APIs have much more to offer you as you develop add-ins. The following are just a few of the available resources. 
 
 1.  [Excel Add-ins programming overview](https://github.com/OfficeDev/office-js-docs/blob/master/excel/excel-add-ins-programming-overview.md)
 2.  [Snippet Explorer for Excel](http://officesnippetexplorer.azurewebsites.net/#/snippets/excel)

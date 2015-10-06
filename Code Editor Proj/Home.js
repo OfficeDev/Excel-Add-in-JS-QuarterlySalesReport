@@ -7,7 +7,13 @@
 	// The initialize function must be run each time a new page is loaded
 	Office.initialize = function (reason) {
 		$(document).ready(function () {
-			app.initialize();
+		    app.initialize();
+
+		    // If not using Excel 2016, return
+		    if (!Office.context.requirements.isSetSupported('ExcelApi', '1.1')) {
+		        app.showNotification("Need Office 2016 or greater", "Sorry, this app only works with newer versions of Excel.");
+		        return;
+		    }
 
 			$('#load-data-and-create-chart').click(loadDataAndCreateChart);
 		});
@@ -63,12 +69,12 @@
 			  console.log("Success!");
 		  })
 		.catch(function (error) {
-			// Always be sure to catch any accumulated errors that bubble up from the Excel.run execution
-			app.showNotification("Error: " + error);
-			console.log("Error: " + error);
-			if (error instanceof OfficeExtension.Error) {
-				console.log("Debug info: " + JSON.stringify(error.debugInfo));
-			}
+		    // Always be sure to catch any accumulated errors that bubble up from the Excel.run execution
+		    app.showNotification("Error: " + error);
+		    console.log("Error: " + error);
+		    if (error instanceof OfficeExtension.Error) {
+		        console.log("Debug info: " + JSON.stringify(error.debugInfo));
+		    }
 		});
 	}
 })();
