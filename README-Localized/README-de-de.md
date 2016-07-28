@@ -11,9 +11,9 @@ Dies ist ein einfaches Excel-Aufgabenbereich-Add-In, das einige Daten in ein Arb
 
 Am einfachsten können Sie Ihr Add-In bereitstellen und testen, indem Sie die Dateien in eine Netzwerkfreigabe kopieren.
 
-1.  Erstellen Sie einen Ordner in einer Netzwerkfreigabe (z.ä B. \\\MyShare\QuarterlySalesReport), und kopieren Sie alle Dateien in den Ordner „Code Editor”. 
+1.  Erstellen Sie einen Ordner in einer Netzwerkfreigabe (z. B. \\\MyShare\QuarterlySalesReport), und kopieren Sie alle Dateien in den Ordner „Code Editor”. 
 2.  Bearbeiten Sie das <SourceLocation>-Element der Manifestdatei, damit es auf den Freigabepfad aus Schrittä 1 zeigt. 
-3.  Kopieren Sie das Manifest (QuarterlySalesReportManifest.xml) in eine Netzwerkfreigabe (z.ä B. \\\MyShare\MyManifests).
+3.  Kopieren Sie das Manifest (QuarterlySalesReportManifest.xml) in eine Netzwerkfreigabe (z. B. \\\MyShare\MyManifests).
 4.  Fügen Sie den Freigabepfad, unter dem das Manifest enthalten ist, als vertrauenswürdigen App-Katalog in Excel hinzu.
 
     a. Starten Sie Excel, und öffnen Sie ein leeres Arbeitsblatt.  
@@ -34,7 +34,7 @@ Am einfachsten können Sie Ihr Add-In bereitstellen und testen, indem Sie die Da
     
   b. Wählen Sie im Dialogfenster **Office-Add-Ins** die Option **Freigegebener Ordner** aus.
     
-  c. Wählen Sie **Quartalsumsatzbericht-Beispiel**>**Einfügen** aus. The add-in opens in a task pane to the right of the current worksheet, as shown in the following figure. 
+  c. Wählen Sie **Quartalsumsatzbericht-Beispiel**>**Einfügen** aus. Das Add-In wird in einem Aufgabenbereich rechts neben dem aktuellen Arbeitsblatt geöffnet, wie in der folgenden Abbildung dargestellt. 
         
   ![Quartalsumsatzbericht-Beispiel](../images/QuarterlySalesReport_taskpane.PNG))
 
@@ -48,7 +48,7 @@ Am einfachsten können Sie Ihr Add-In bereitstellen und testen, indem Sie die Da
         
   ![Quartalsumsatzbericht-Beispiel](../images/QuarterlySalesReport_taskpane.PNG)
 
-3. Klicken Sie auf die Schaltfläche **Klicken Sie hier!**, um die Daten und das Diagramm im Arbeitsblatt anzuzeigen, wie in der folgenden Abbildung dargestellt. Ă„ndern Sie zum dynamischen Aktualisieren des Diagramms einfach die Daten in dem Bereich. 
+3. Klicken Sie auf die Schaltfläche **Klicken Sie hier!**, um die Daten und das Diagramm im Arbeitsblatt anzuzeigen, wie in der folgenden Abbildung dargestellt. Ändern Sie zum dynamischen Aktualisieren des Diagramms einfach die Daten in dem Bereich. 
         
   ![Quartalsumsatzbericht-Beispiel](../images/QuarterlySalesReport_report.PNG)
         
