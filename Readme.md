@@ -54,14 +54,14 @@ The simplest way to deploy and test your add-in is to copy the files to a networ
         
 ## Code it
 
-If you want to write this add-in yourself from scratch, see [Build your first Excel Add-in](https://github.com/OfficeDev/office-js-docs/blob/master/excel/build-your-first-excel-add-in.md).
+If you want to write this add-in yourself from scratch, see [Build your first Excel Add-in](https://github.com/OfficeDev/office-js-docs/blob/master/docs/excel/build-your-first-excel-add-in.md).
 
 
 ### Learn more
 
 
-1.  [Excel Add-ins programming overview](https://github.com/OfficeDev/office-js-docs/blob/master/excel/excel-add-ins-programming-overview.md)
+1.  [Excel Add-ins programming overview](https://github.com/OfficeDev/office-js-docs/blob/master/docs/excel/excel-add-ins-javascript-programming-overview.md)
 2.  [Snippet Explorer for Excel](http://officesnippetexplorer.azurewebsites.net/#/snippets/excel)
 3.  [Excel Add-ins code samples](https://github.com/OfficeDev/office-js-docs/blob/master/excel/excel-add-ins-code-samples.md) 
-4.  [Excel Add-ins JavaScript API Reference](https://github.com/OfficeDev/office-js-docs/blob/master/excel/excel-add-ins-javascript-reference.md)
-5.  [Build your first Excel Add-in](https://github.com/OfficeDev/office-js-docs/blob/master/excel/build-your-first-excel-add-in.md)
+4.  [Excel Add-ins JavaScript API Reference](https://github.com/OfficeDev/office-js-docs/blob/master/docs/excel/excel-add-ins-javascript-api-reference.md)
+5.  [Build your first Excel Add-in](https://github.com/OfficeDev/office-js-docs/blob/master/docs/excel/build-your-first-excel-add-in.md)
