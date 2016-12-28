@@ -16,7 +16,7 @@ xsi:type="TaskPaneApp">
     <Host Name="Workbook" />
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://yoursever/quarterlysalesreport/home.html" />
+    <SourceLocation DefaultValue="https://yourserver/quarterlysalesreport/home.html" />
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
     <!-- Begin Add-in Commands Mode integration. -->
