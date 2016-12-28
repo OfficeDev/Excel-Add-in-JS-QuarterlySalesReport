@@ -51,7 +51,7 @@
             <!-- Use OfficeTab to extend an existing Tab. Use CustomTab to create a new tab. -->
             <OfficeTab id="TabHome">
               <!-- Ensure you provide a unique id for the group. Recommendation for any IDs is to namespace using your company name. -->
-              <Group id="Contoso.SnippetExplorer">
+              <Group id="Contoso.Group">
                 <!-- Label for your group. resid must point to a ShortString resource. -->
                 <Label resid="Contoso.ExcelAddin" />
                 <!-- Icons. Required sizes 16,32,80, optional 20, 24, 40, 48, 64. Strongly recommended to provide all sizes for great UX. -->
