@@ -4,7 +4,7 @@ _适用于：Excel 2016_
 
 这是一个简单的 Excel 任务窗格外接程序，该外接程序可将部分数据加载到工作表中并在 Excel 2016 中创建一个基本图表。它有两种类型：代码编辑器和 Visual Studio。
 
-![季度销售报表示例](../Images/QuarterlySalesReport_report.PNG)
+![季度销售报表示例](../images/QuarterlySalesReport_report.PNG)
 
 ## <a name="try-it-out"></a>尝试一下
 ### <a name="code-editor-version"></a>代码编辑器版本
@@ -36,21 +36,21 @@ _适用于：Excel 2016_
 
     c.依次选择“**季度销售额报表示例**”>“**插入**”。此时，系统会在当前工作表右侧的任务窗格中打开外接程序，如下图所示。
 
-  ![季度销售报表示例](../Images/QuarterlySalesReport_taskpane.PNG))
+  ![季度销售报表示例](../images/QuarterlySalesReport_taskpane.PNG))
 
     d.单击“**单击我!**”按钮，在工作表中呈现数据和图表，如下图所示。若要动态查看图表更新，只需更改范围内的数据。
 
-  ![季度销售报表示例](../Images/QuarterlySalesReport_report.PNG)
+  ![季度销售报表示例](../images/QuarterlySalesReport_report.PNG)
 
 ### <a name="visual-studio-version"></a>Visual Studio 版本
 1.  将项目复制到本地文件夹，并在 Visual Studio 中打开 Excel-Add-in-JS-QuarterlySalesReport.sln。
 2.  按 F5 生成并部署示例外接程序。Excel 启动并且外接程序会在空白工作簿右侧的任务窗格中打开，如下图所示。
 
-  ![季度销售报表示例](../Images/QuarterlySalesReport_taskpane.PNG)
+  ![季度销售报表示例](../images/QuarterlySalesReport_taskpane.PNG)
 
 3. 单击“**单击我!**”按钮，在工作表中呈现数据和图表，如下图所示。若要动态查看图表更新，只需更改区域内的数据。
 
-  ![季度销售报表示例](../Images/QuarterlySalesReport_report.PNG)
+  ![季度销售报表示例](../images/QuarterlySalesReport_report.PNG)
 
 ## <a name="code-it"></a>编码
 

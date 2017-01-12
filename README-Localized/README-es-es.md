@@ -4,7 +4,7 @@ _Se aplica a: Excel 2016_
 
 Este es un sencillo complemento del panel de tareas de Excel que carga algunos datos en una hoja de cálculo y crea un gráfico básico en Excel 2016. Hay dos tipos: editor de código y Visual Studio.
 
-![Ejemplo de informe de ventas trimestrales](../Images/QuarterlySalesReport_report.PNG)
+![Ejemplo de informe de ventas trimestrales](../images/QuarterlySalesReport_report.PNG)
 
 ## <a name="try-it-out"></a>Pruébelo
 ### <a name="code-editor-version"></a>Versión del editor de código
@@ -36,21 +36,21 @@ La forma más sencilla de implementar y probar el complemento consiste en copiar
 
     c.  Seleccione **Ejemplo de informe de ventas trimestrales**>**Insertar**. El complemento se abrirá en un panel de tareas a la derecha de la hoja de cálculo actual, como se muestra en la ilustración siguiente.
 
-  ![Ejemplo de informe de ventas trimestrales](../Images/QuarterlySalesReport_taskpane.PNG)de Azure).
+  ![Ejemplo de informe de ventas trimestrales](../images/QuarterlySalesReport_taskpane.PNG)de Azure).
 
     d.  Haga clic en el botón **Hacer clic aquí** para que se representen los datos y el gráfico en la hoja de cálculo, tal y como se muestra en la ilustración siguiente.  Para ver cómo se actualiza el gráfico de forma dinámica, solo tiene que cambiar los datos del intervalo.
 
-  ![Ejemplo de informe de ventas trimestrales](../Images/QuarterlySalesReport_report.PNG)
+  ![Ejemplo de informe de ventas trimestrales](../images/QuarterlySalesReport_report.PNG)
 
 ### <a name="visual-studio-version"></a>Versión de Visual Studio
 1.  Copie el proyecto en una carpeta local y abra Excel-Add-in-JS-QuarterlySalesReport.sln en Visual Studio.
 2.  Pulse F5 para crear e implementar el complemento de ejemplo. Excel se inicia y se abre el complemento en un panel de tareas a la derecha de una hoja de cálculo en blanco, como se muestra en la siguiente ilustración.
 
-  ![Ejemplo de informe de ventas trimestrales](../Images/QuarterlySalesReport_taskpane.PNG)
+  ![Ejemplo de informe de ventas trimestrales](../images/QuarterlySalesReport_taskpane.PNG)
 
 3. Haga clic en el botón **Click me!** (Hacer clic aquí) para representar los datos en el gráfico dentro de la hoja de cálculo, como se muestra en la siguiente ilustración. Para ver cómo se actualiza el gráfico de forma dinámica, solo tiene que cambiar los datos del intervalo.
 
-  ![Ejemplo de informe de ventas trimestrales](../Images/QuarterlySalesReport_report.PNG)
+  ![Ejemplo de informe de ventas trimestrales](../images/QuarterlySalesReport_report.PNG)
 
 ## <a name="code-it"></a>Escribir código
 

@@ -4,7 +4,7 @@ _適用対象:Excel 2016_
 
 これは、Excel 2016 でデータをワークシートに読み込んでから、基本的なグラフを作成する簡単な Excel 作業ウィンドウ アドインです。コード エディターと Visual Studio のいずれかを選択できます。
 
-![四半期売上レポートのサンプル](../Images/QuarterlySalesReport_report.PNG)
+![四半期売上レポートのサンプル](../images/QuarterlySalesReport_report.PNG)
 
 ## <a name="try-it-out"></a>お試しください。
 ### <a name="code-editor-version"></a>コード エディターのバージョン
@@ -36,21 +36,21 @@ _適用対象:Excel 2016_
 
     c.**[四半期売上レポートのサンプル]**>**[挿入]** の順に選択します。次の図に示すように、現在のワークシートの右側の作業ウィンドウでアドインが開きます。
 
-  ![四半期売上レポートのサンプル](../Images/QuarterlySalesReport_taskpane.PNG))
+  ![四半期売上レポートのサンプル](../images/QuarterlySalesReport_taskpane.PNG))
 
     d.**[ここをクリック]** ボタンをクリックして、次の図に示されているように、ワークシート内にデータとグラフを表示します。グラフが動的に更新されることを確認するには、範囲に含まれるデータを変更します。
 
-  ![四半期売上レポートのサンプル](../Images/QuarterlySalesReport_report.PNG)
+  ![四半期売上レポートのサンプル](../images/QuarterlySalesReport_report.PNG)
 
 ### <a name="visual-studio-version"></a>Visual Studio のバージョン
 1.  プロジェクトをローカル フォルダーにコピーし、Excel-Add-in-JS-QuarterlySalesReport.sln を開きます。
 2.  F5 キーを押して、サンプル アドインをビルドおよび展開します。Excel が起動し、次の図に示すように、空白のワークシートの右側の作業ウィンドウでアドインが開きます。
 
-  ![四半期売上レポートのサンプル](../Images/QuarterlySalesReport_taskpane.PNG)
+  ![四半期売上レポートのサンプル](../images/QuarterlySalesReport_taskpane.PNG)
 
 3. **[ここをクリック]** ボタンをクリックして、次の図に示されているように、ワークシート内のデータとグラフを表示します。グラフが動的に更新されるようにするには、範囲に含まれるデータを変更します。
 
-  ![四半期売上レポートのサンプル](../Images/QuarterlySalesReport_report.PNG)
+  ![四半期売上レポートのサンプル](../images/QuarterlySalesReport_report.PNG)
 
 ## <a name="code-it"></a>コード化する
 

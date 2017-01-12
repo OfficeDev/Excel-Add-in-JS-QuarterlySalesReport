@@ -4,7 +4,7 @@ _S’applique à : Excel 2016_
 
 Il s’agit d’un complément de volet Office Excel simple permettant de charger des données dans une feuille de calcul et de créer un graphique de base dans Excel 2016. Il a deux versions : éditeur de code et Visual Studio.
 
-![Exemple de rapport sur les ventes trimestrielles](../Images/QuarterlySalesReport_report.PNG)
+![Exemple de rapport sur les ventes trimestrielles](../images/QuarterlySalesReport_report.PNG)
 
 ## <a name="try-it-out"></a>Essayez !
 ### <a name="code-editor-version"></a>Version d’éditeur de code
@@ -36,21 +36,21 @@ Pour déployer et tester votre complément, le plus simple consiste à copier le
 
     c.  Choisissez **Exemple de rapport sur les ventes trimestrielles**>**Insertion**. Le complément s’ouvre dans un volet Office à droite de la feuille de calcul active, comme indiqué dans l’illustration suivante.
 
-  ![Exemple de rapport sur les ventes trimestrielles](../Images/QuarterlySalesReport_taskpane.PNG))
+  ![Exemple de rapport sur les ventes trimestrielles](../images/QuarterlySalesReport_taskpane.PNG))
 
     d.  Cliquez sur le bouton **Cliquez ici !** pour afficher les données et le graphique à l’intérieur de la feuille de calcul, comme indiqué dans l’illustration suivante.  Pour mettre à jour le graphique dynamiquement, il vous suffit de modifier les données de la plage.
 
-  ![Exemple de rapport sur les ventes trimestrielles](../Images/QuarterlySalesReport_report.PNG)
+  ![Exemple de rapport sur les ventes trimestrielles](../images/QuarterlySalesReport_report.PNG)
 
 ### <a name="visual-studio-version"></a>Version de Visual Studio
 1.  Copiez le projet dans un dossier local et ouvrez le fichier Excel-Add-in-JS-QuarterlySalesReport.sln dans Visual Studio.
 2.  Appuyez sur F5 pour créer et déployer l’exemple de complément. Excel démarre et le complément s’ouvre dans un volet Office à droite de la feuille de calcul active, comme indiqué dans l’illustration suivante.
 
-  ![Exemple de rapport sur les ventes trimestrielles](../Images/QuarterlySalesReport_taskpane.PNG)
+  ![Exemple de rapport sur les ventes trimestrielles](../images/QuarterlySalesReport_taskpane.PNG)
 
 3. Cliquez sur le bouton **Cliquez ici !** pour afficher les données et le graphique à l’intérieur de la feuille de calcul, comme indiqué dans l’illustration suivante. Pour mettre à jour le graphique dynamiquement, il vous suffit de modifier les données de la plage.
 
-  ![Exemple de rapport sur les ventes trimestrielles](../Images/QuarterlySalesReport_report.PNG)
+  ![Exemple de rapport sur les ventes trimestrielles](../images/QuarterlySalesReport_report.PNG)
 
 ## <a name="code-it"></a>Le coder
 

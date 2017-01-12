@@ -4,7 +4,7 @@ _Aplica-se a: Excel 2016_
 
 Esse é um suplemento simples do painel de tarefas que carrega alguns dados em uma planilha e cria um gráfico básico no Excel 2016. Há dois tipos: o editor de código e o Visual Studio.
 
-![Exemplo de Relatório de Vendas Trimestral](../Images/QuarterlySalesReport_report.PNG)
+![Exemplo de Relatório de Vendas Trimestral](../images/QuarterlySalesReport_report.PNG)
 
 ## <a name="try-it-out"></a>Experimente
 ### <a name="code-editor-version"></a>Versão do editor de código
@@ -36,21 +36,21 @@ A maneira mais fácil de implantar e testar o suplemento é copiar os arquivos p
 
     c.  Escolha **Exemplo de Relatório de Vendas Trimestral**>**Inserir**. O suplemento abre em um painel de tarefas à direita da planilha atual, conforme mostrado na figura a seguir.
 
-  ![Exemplo de Relatório de Vendas Trimestral](../Images/QuarterlySalesReport_taskpane.PNG))
+  ![Exemplo de Relatório de Vendas Trimestral](../images/QuarterlySalesReport_taskpane.PNG))
 
     d.  Clique no botão **Click me!** para processar os dados e o gráfico dentro da planilha, conforme mostrado na figura a seguir.  Para ver o gráfico sendo atualizado dinamicamente, basta alterar os dados no intervalo.
 
-  ![Exemplo de Relatório de Vendas Trimestral](../Images/QuarterlySalesReport_report.PNG)
+  ![Exemplo de Relatório de Vendas Trimestral](../images/QuarterlySalesReport_report.PNG)
 
 ### <a name="visual-studio-version"></a>Versão do Visual Studio
 1.  Copie o projeto para uma pasta local e abra o Excel-Add-in-JS-QuarterlySalesReport.sln no Visual Studio.
 2.  Pressione F5 para criar e implantar o suplemento de exemplo. O Excel inicia e o suplemento abre em um painel de tarefas à direita da planilha em branco, conforme mostrado na figura a seguir.
 
-  ![Exemplo de Relatório de Vendas Trimestral](../Images/QuarterlySalesReport_taskpane.PNG)
+  ![Exemplo de Relatório de Vendas Trimestral](../images/QuarterlySalesReport_taskpane.PNG)
 
 3. Clique no botão **Click me!** para processar os dados e o gráfico dentro da planilha, conforme mostrado na figura a seguir.  Para ver o gráfico sendo atualizado dinamicamente, basta alterar os dados no intervalo.
 
-  ![Exemplo de Relatório de Vendas Trimestral](../Images/QuarterlySalesReport_report.PNG)
+  ![Exemplo de Relatório de Vendas Trimestral](../images/QuarterlySalesReport_report.PNG)
 
 ## <a name="code-it"></a>Code it
 

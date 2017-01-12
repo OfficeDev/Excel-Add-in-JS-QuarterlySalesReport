@@ -4,7 +4,7 @@ _適用於：Excel 2016_
 
 這個簡單的 Excel 工作窗格增益集可在 Excel 2016 中將一些資料載入工作表中，並建立一個基本圖表。共有兩種型態︰程式碼編輯器和 Visual Studio。
 
-![每季銷售報表範例](../Images/QuarterlySalesReport_report.PNG)
+![每季銷售報表範例](../images/QuarterlySalesReport_report.PNG)
 
 ## <a name="try-it-out"></a>進行測試
 ### <a name="code-editor-version"></a>程式碼編輯器版本
@@ -36,21 +36,21 @@ _適用於：Excel 2016_
 
     c.選擇 **[每季銷售報告範例]** > **[插入]**。增益集會在目前工作表右側的工作窗格中開啟，如下圖所示。
 
-  ![每季銷售報表範例](../Images/QuarterlySalesReport_taskpane.PNG))
+  ![每季銷售報表範例](../images/QuarterlySalesReport_taskpane.PNG))
 
     d.按一下 **[按我!]** 按鈕來轉譯工作表內的資料和圖表，如下圖所示。若要查看動態更新的圖表，只要變更範圍內的資料。
 
-  ![每季銷售報表範例](../Images/QuarterlySalesReport_report.PNG)
+  ![每季銷售報表範例](../images/QuarterlySalesReport_report.PNG)
 
 ### <a name="visual-studio-version"></a>Visual Studio 版本
 1.  將專案複製到本機資料夾，並在 Visual Studio 中開啟Excel-Add-in-JS-QuarterlySalesReport.sln。
 2.  按 F5 建置及部署範例增益集。Excel 會啟動，且增益集會在工作表右側空白部分的工作窗格中開啟，如下圖所示。
 
-  ![每季銷售報表範例](../Images/QuarterlySalesReport_taskpane.PNG)
+  ![每季銷售報表範例](../images/QuarterlySalesReport_taskpane.PNG)
 
 3. 按一下 **[按我!]** 按鈕來轉譯工作表內的資料和圖表，如下圖所示。若要查看動態更新的圖表，只要變更範圍內的資料。
 
-  ![每季銷售報表範例](../Images/QuarterlySalesReport_report.PNG)
+  ![每季銷售報表範例](../images/QuarterlySalesReport_report.PNG)
 
 ## <a name="code-it"></a>Code it
 
