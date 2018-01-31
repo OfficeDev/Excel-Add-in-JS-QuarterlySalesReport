@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: Quarterly Sales Report Task Pane Add-in Sample for Excel 2016
+  path: ''
+  description: 'This is a simple Excel task pane add-in that loads some data into a worksheet and creates a basic chart in Excel 2016. It comes in two flavors: code editor and Visual Studio.'
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-in
+  azureDeploy: ''
+  author: umasubra
+  platforms: []
+  languages:
+  - JavaScript
+  extensions:
+    products:
+    - Excel
+    scenarios: []
